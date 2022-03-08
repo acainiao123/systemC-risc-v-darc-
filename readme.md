@@ -23,6 +23,7 @@
             ** how to use :**
                 python3 update_mem.py fft 
                 python3 update_mem.py fft 2400
+                python3 update_mem.py jpegen 3600
             ** "fft" is the name of the c program running on risc-v core. "2400" is the L1 cache size for ins/data. "jpegen" need at least 3600 word size. ** 
         
         ass2bin:  convert the c code to riscv machine code and run the simulation in systemc.

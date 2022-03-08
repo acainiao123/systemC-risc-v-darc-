@@ -24,15 +24,20 @@
                 python3 update_mem.py fft 
                 python3 update_mem.py fft 2400
                 python3 update_mem.py jpegen 3600
-            ** "fft" is the name of the c program running on risc-v core. "2400" is the L1 cache size for ins/data. "jpegen" need at least 3600 word size. ** 
+            ** "fft" is the name of the c program running on risc-v core. "2400" is the word size of L1 cache for ins/data. "jpegen" need at least 3600 word size. ** 
+
+            output: under "pipeline" and "scalar" folder, there will be files "ppoutput.txt" and "scoutput.txt" to print out the varables in "printf" function.
+
         
         ass2bin:  convert the c code to riscv machine code and run the simulation in systemc.
 
-        bench_cpp: example c program to run on risc-v processor. If the new c program added, the name of folder should be same as the c program file with main function. Please create corresponding make file.
+        bench_cpp: example c program to run on risc-v processor. If the new c program added, the name of folder should be same as the c program file with main function. Please create corresponding make file. ("char,double, long long" are not allowed. Dynamic memory is not supported now. To use "printf" function, please follow the exisited program)
 
         pipeline: 5 stage pipeline risc-v core
 
         scalar: scalar risc-v core
+
+        asip: application specific processor
             
 
 

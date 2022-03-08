@@ -62,7 +62,7 @@ test.exe: $(OBJS)
 	$(CC) $^  $(ARCH_FLAG)   $(LIBS) -I.    -o $@
 #-DCHECKCYCLES
 $(OBJS): %.o:%.cpp
-	$(CC)  $(ARCH_FLAG)  $(CWB_SC_INCL) -DSYSCSIMULATION  -DMEMORY_MASK  -c  $^ -o $@
+	$(CC)  $(ARCH_FLAG)  $(CWB_SC_INCL) -DSYSCSIMULATION   -c  $^ -o $@
 
 .PHONY: all clean
 

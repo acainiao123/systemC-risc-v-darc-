@@ -29,7 +29,7 @@
             output: under "pipeline" and "scalar" folder, there will be files "ppoutput.txt" and "scoutput.txt" to print out the varables in "printf" function.
 
         
-        ass2bin:  convert the c code to riscv machine code and run the simulation in systemc.
+        ass2bin:  convert the c code to risc-v binary code and run the simulation in systemc.
 
         bench_cpp: example c program to run on risc-v processor. If the new c program added, the name of folder should be same as the c program file with main function. Please create corresponding make file. ("char,double, long long" are not allowed. Dynamic memory is not supported now. To use "printf" function, please follow the exisited program)
 

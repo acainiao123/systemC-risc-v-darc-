@@ -29,7 +29,7 @@ bin: top level to run the systemC simulation of the risc-v core.
     
 **fft is the name of the c program running on risc-v core. 2400 is the word size of L1 cache for ins/data. jpegen needs at least 3600 word size.** 
 
-***output: under "pipeline" and "scalar" folder, there will be files "ppoutput.txt" and "scoutput.txt" to print out the varables in "printf" function.**
+***output: under "pipeline" and "scalar" folder, there will be files "ppoutput.txt" and "scoutput.txt" to print out the varables in "printf" function.***
 
 ass2bin:  convert the c code to risc-v binary code and run the simulation in systemc.
 

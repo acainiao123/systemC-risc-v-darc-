@@ -20,11 +20,14 @@ Once finish all the steps without error, add bin folder to the PATH.
 
 ## files arch
 bin: top level to run the systemC simulation of the risc-v core.
-** how to use :**
+
+**how to use :**
+
     python3 update_mem.py fft 
     python3 update_mem.py fft 2400
     python3 update_mem.py jpegen 3600
-** "fft" is the name of the c program running on risc-v core. "2400" is the word size of L1 cache for ins/data. "jpegen" need at least 3600 word size. ** 
+    
+**"fft" is the name of the c program running on risc-v core. "2400" is the word size of L1 cache for ins/data. "jpegen" need at least 3600 word size. ** 
 
 output: under "pipeline" and "scalar" folder, there will be files "ppoutput.txt" and "scoutput.txt" to print out the varables in "printf" function.
 
